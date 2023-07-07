@@ -1,0 +1,149 @@
+#masthead {
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* Section */
+.card-section {
+    background: #0b344d;
+    height: 350px;
+    margin-top: -240px
+}
+.card-section2 {
+    /* background: #0b344d; */
+    height: 350px;
+}
+.card-section6 {
+    /* background: #0b344d; */
+    height: 200px;
+}
+.card-section3 {
+    /* background: #0b344d; */
+    height: 600px;
+}
+.card-section4 {
+    background: #0b344d;
+    height: 600px;
+}
+.product-section {
+    background: darkgrey;
+    height: 350px;
+}
+.product-section3 {
+    /* background: darkgrey; */
+    height: 350px;
+}
+.headerSection {
+    background: darkgrey;
+}
+/* Icon */
+.fa-image {
+    font-size: 100px;
+    margin-top: 90px;
+}
+.fa-users {
+    font-size: 60px;
+    margin-top: -20px;
+}
+.fa-store {
+    font-size: 60px;
+    margin-top: -20px;
+}
+.faimage2 {
+    font-size: 100px;
+    margin-top: -10px;
+}
+/* Image */
+#img1 {
+    width: 100%;
+    height: 280px;
+
+}
+#img2 {
+    width: 100%;
+    height: 380px;
+
+
+
+}
+/* card-title */
+.title-card {
+    width: 350px;
+    margin-left: -115px;
+    background-color: white;
+}
+#h3-title {
+    margin-top: -30px;
+}
+.thisContact {
+    margin-top: -8em;
+}
+.thermal-energy {
+    margin-top:-150px;
+}
+@media screen and (max-width: 768px) {
+    .card-section {
+        background: #0b344d;
+        height: 650px;
+    }
+    .card-section2 {
+        /* background: #0b344d; */
+        height: 450px;
+    }
+    .card-section4 {
+        /* background: #0b344d; */
+        margin-top: 40em;
+        height: 300px;
+    }   
+    .card-section6 {
+        /* background: #0b344d; */
+        margin-top: 20em;
+    }   
+    #img1 {
+        width: 100%;
+        height: 250px;
+        margin-top: -50px;
+
+    }   
+    #img2 {
+        width: 100%;
+        height: 250px;
+    }   
+    /* card-title */
+    .title-card {
+        width: 350px;
+        margin-left: 10px;
+        background-color: white;
+    }
+    #h3-title {
+        margin-top: -30px;
+    }
+    #ul-section {
+        background-color: #0d486c;
+        padding: 4px;
+    }
+   
+}
+
+.divider-custom1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider-custom-line1 {
+    flex-grow: 1;
+    height: 1px;
+    padding: 1px;
+    background-color: lightgray;
+}
+
+.divider-custom-icon1 {
+    margin: 0 10px;
+}
+
+.divider-custom-icon1 i {
+    font-size: 16px;
+    color: lightgray;
+}   
